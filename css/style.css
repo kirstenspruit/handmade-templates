@@ -249,6 +249,9 @@ img {
     .grid {
         grid-template-columns: 1fr 1fr;
     }  
+    marquee {
+        animation-duration: 15s; /* Slower speed for mobile */
+    }
 }
 @media only screen and (max-width:480px) {
     :root {
