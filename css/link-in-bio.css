@@ -184,9 +184,6 @@ img {
 .info__links__item {
     text-align: center;
 }
-.info__links__item::after {
-    content: '\2197';
-}
 
 .grid {
     display: grid;

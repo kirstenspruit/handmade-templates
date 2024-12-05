@@ -180,9 +180,6 @@ img {
     gap: var(--100);
     font-size: 0.8rem;
 }
-.info__links__item::after {
-    content: '\2197';
-}
 
 
 .grid {
