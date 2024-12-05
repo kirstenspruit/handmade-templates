@@ -92,7 +92,7 @@ body {
     background-color: var(--color__bg);
     
     width: 600px;
-    max-width: 100%;
+    max-width: calc(100% - var(--400));
     padding: var(--200);
     margin: auto;
 
@@ -261,6 +261,7 @@ img {
     }
     body {
         padding: var(--100);
+        max-width: calc(100% - var(--200));
     }
     .header__img {
         width: 100px;
@@ -271,7 +272,6 @@ img {
 }
 @media only screen and (max-width:480px) {
     :root {
-        --100: 4px;
     }
     .grid {
         grid-template-columns: 1fr 1fr;
