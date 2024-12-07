@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/00_base.css">
-    <link rel="stylesheet" href="assets/css/01_starter-linkinbio.css">
+    <link rel="stylesheet" href="assets/css/01B_custom-example.css">
     <script src="assets/js/script.js"></script>
     <title>Handmade Templates</title>
 </head>
 <body>
     <main class="main">
-        <div class="main__inner main__inner--s">
-            <header class="header header--col">
-                <div class="header__container header__container--col">
-                    <figure class="profile-pic">
-                        <img class="profile-pic__img" src="assets/images/placeholder_1-1.png" alt="">
-                    </figure>
+        <div class="main__inner">
+            <header class="header">
+                <div class="header__container">
+                    <h1 class="site-title">
+                        <a href="index.html">
+                            Handmade templates 
+                        </a>
+                    </h1>
                 </div>
                 <div class="header__container">
-                    <h1 class="site-title site-title--center">
-                        Handmade Templates
-                    </h1>
+                    <marquee class="date">
+                        <span id="currentWeekday"></span><span id="currentDate"></span>, Timișoara (RO)
+                    </marquee>
+                    <div class="clock">
+                        <span id="currentTime"></span>
+                    </div>
                 </div>
             </header>
             <section class="section">
                 <h2 class="section__title">
                     Info
                 </h2>
-                <div class="section__container">
+                <div class="section__container section__container--2col">
                     <div class="text-block">
                         <p>
                             Kirsten Spruit is a designer who codes websites by hand, whether they are small artistic pieces in the context of the <i>poetic web</i>, or larger commissioned platforms like FABER's Bright Cityscapes website.  
@@ -42,7 +47,7 @@
                             The digital package comes with a limited edition RISO print.
                         </p>
                         <p>
-                            You are currently looking at template 2.
+                            You are currently looking at custom example B based on template 1.
                         </p>
                     </div>
                     <div class="text-block">
@@ -57,14 +62,15 @@
                                     Custom example A based on template 1
                                 </a>
                             </li>
-                            <li class="text-block__li text-block__li--center">
-                                <a href="01B_custom-example.html">
-                                    Custom example B based on template 1
-                                </a>
-                            </li>
+
                             <li class="text-block__li text-block__li--center">
                                 <a href="01C_custom-example.html">
                                     Custom example C based on template 1
+                                </a>
+                            </li>
+                            <li class="text-block__li text-block__li--center">
+                                <a href="index.html">
+                                    Template 2
                                 </a>
                             </li>
                         </ul>
@@ -73,7 +79,7 @@
             </section>
             <section class="section">
                 <h2 class="section__title">
-                    Things
+                    Examples
                 </h2>
                 <div class="section__container section__container--3col">
 
@@ -84,7 +90,7 @@
                                     Something
                                 </h3>
                                 <figure class="item__figure">
-                                    <img src="assets/images/placeholder_1-1.png" alt="A bitmap image of a forest">
+                                    <img src="assets/images/placeholder_9-16.png" alt="A bitmap image of a forest">
                                 </figure>
                             </div>
                         <!-- </a>  -->
@@ -97,7 +103,7 @@
                                     Something
                                 </h3>
                                 <figure class="item__figure">
-                                    <img src="assets/images/placeholder_1-1.png" alt="A bitmap image of a forest">
+                                    <img src="assets/images/placeholder_3-2.png" alt="A bitmap image of a forest">
                                 </figure>
                             </div>
                         <!-- </a>  -->
@@ -123,7 +129,7 @@
                                     Something
                                 </h3>
                                 <figure class="item__figure">
-                                    <img src="assets/images/placeholder_1-1.png" alt="A bitmap image of a forest">
+                                    <img src="assets/images/placeholder_16-9.png" alt="A bitmap image of a forest">
                                 </figure>
                             </div>
                         <!-- </a>  -->
@@ -136,7 +142,7 @@
                                     Something
                                 </h3>
                                 <figure class="item__figure">
-                                    <img src="assets/images/placeholder_1-1.png" alt="A bitmap image of a forest">
+                                    <img src="assets/images/placeholder_2-3.png" alt="A bitmap image of a forest">
                                 </figure>
                             </div>
                         <!-- </a>  -->
@@ -149,28 +155,28 @@
                                     Something
                                 </h3>
                                 <figure class="item__figure">
-                                    <img src="assets/images/placeholder_1-1.png" alt="A bitmap image of a forest">
+                                    <img src="assets/images/placeholder_4-5.png" alt="A bitmap image of a forest">
                                 </figure>
                             </div>
                         <!-- </a>  -->
                     </article>
-                    
         
                     
                 </div>
             </section>
             <footer class="footer">
                 <div class="footer__container">
-                    <marquee class="date">
-                        <span id="currentWeekday"></span> <span id="currentDate"></span>, Timișoara (RO)
+                    <nav class="footer__nav">
+                        <a href="#">
+                            Back to top &#8593;
+                        </a>
+                    </nav>
+                    <marquee class="footer__marquee">
+                        This website template is handmade by Kirsten Spruit.
                     </marquee>
-                    <div class="clock">
-                        <span id="currentTime"></span>
-                    </div>
                 </div>
             </footer>
         </div>
     </main>
-    
 </body>
 </html>

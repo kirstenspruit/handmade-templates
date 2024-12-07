@@ -6,76 +6,76 @@ function clock() {
 
   // Change color accent based on the time of day
   if (t < "01:00:00") {
-  document.documentElement.style.setProperty('--color__now', 'var(--color__0000)');
+  document.documentElement.style.setProperty('--time__now', 'var(--time__0000)');
   }
   else if (t < "02:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0100)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0100)');
   }
   else if (t < "03:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0200)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0200)');
   }
   else if (t < "04:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0300)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0300)');
   }
   else if (t < "05:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0400)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0400)');
   }
   else if (t < "06:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0500)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0500)');
   }
   else if (t < "07:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0600)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0600)');
   }
   else if (t < "08:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0700)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0700)');
   }
   else if (t < "09:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0800)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0800)');
   }
   else if (t < "10:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__0900)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__0900)');
   }
   else if (t < "11:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1000)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1000)');
   }
   else if (t < "12:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1100)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1100)');
   }
   else if (t < "13:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1200)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1200)');
   }
   else if (t < "14:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1300)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1300)');
   }
   else if (t < "15:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1400)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1400)');
   }
   else if (t < "16:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1500)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1500)');
   }
   else if (t < "17:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1600)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1600)');
   }
   else if (t < "18:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1700)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1700)');
   }
   else if (t < "19:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1800)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1800)');
   }
   else if (t < "20:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__1900)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__1900)');
   }
   else if (t < "21:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__2000)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__2000)');
   }
   else if (t < "22:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__2100)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__2100)');
   }
   else if (t < "23:00:00") {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__2200)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__2200)');
   }
   else {
-    document.documentElement.style.setProperty('--color__now', 'var(--color__2300)');
+    document.documentElement.style.setProperty('--time__now', 'var(--time__2300)');
   }
 
   // Light/darkmode

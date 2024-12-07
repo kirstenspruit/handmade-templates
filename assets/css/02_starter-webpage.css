@@ -1,0 +1,14 @@
+header,
+footer,
+nav,
+marquee,
+aside, 
+section,
+div,
+figure,
+ul, li,
+h1, h2, h3, h4, h5, h6, p {
+    padding: var(--100);
+    background-color: var(--color__accent);
+    border-radius: var(--100);
+}

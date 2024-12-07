@@ -1,0 +1,328 @@
+/* This stylesheet forms the base of the starter template and customisation examples. */
+
+:root {
+    --fs: 20px;
+    
+    --100: 12px;
+
+    --050: calc(var(--100) /2);
+    --200: calc(var(--100) *2);
+    --400: calc(var(--100) *4);
+    
+    --color__main: var(--color__dark);
+    --color__bg: var(--color__light);
+
+    --color__accent: var(--time__now);
+    --color__dark: #111;
+    --color__light: #fff;
+
+    /* Changing colors */
+    
+    --time__now: #0318d010; /* <-- is changed by script */
+    
+    --time__0000: rgba(255, 0, 0, 0.1);
+    --time__0100: rgba(255, 166, 0, 0.1);
+    --time__0200: rgba(255, 255, 0, 0.1);
+    --time__0300: rgba(0, 128, 0, 0.1);
+    --time__0400: rgba(0, 255, 255, 0.1);
+    --time__0500: rgba(0, 0, 255, 0.1);
+    --time__0600: rgba(128, 0, 128, 0.1);
+    --time__0700: rgba(255, 0, 255, 0.1);
+
+    --time__0800: rgba(255, 0, 0, 0.1);
+    --time__0900: rgba(255, 166, 0, 0.1);
+    --time__1000: rgba(255, 255, 0, 0.1);
+    --time__1100: rgba(0, 128, 0, 0.1);
+    --time__1200: rgba(0, 255, 255, 0.1);
+    --time__1300: rgba(0, 0, 255, 0.1);
+    --time__1400: rgba(128, 0, 128, 0.1);
+    --time__1500: rgba(255, 0, 255, 0.1);
+
+    --time__1600: rgba(255, 0, 0, 0.1);
+    --time__1700: rgba(255, 166, 0, 0.1);
+    --time__1800: rgba(255, 255, 0, 0.1);
+    --time__1900: rgba(0, 128, 0, 0.1);
+    --time__2000: rgba(0, 255, 255, 0.1);
+    --time__2100: rgba(0, 0, 255, 0.1);
+    --time__2200: rgba(128, 0, 128, 0.1);
+    --time__2300: rgba(255, 0, 255, 0.1);
+}
+
+
+/* ---------------------------------------------- */
+
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+header,
+footer,
+nav,
+marquee,
+main,
+aside, 
+section,
+article,
+div,
+figure,
+ul, li,
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------------------------------- */
+
+html {
+    transition: all 1s;
+    scroll-behavior: smooth;
+    font-size: var(--fs);
+}
+
+* {
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.02rem;
+    line-height: 1.1;
+
+    color: var(--color__main);
+    background-color: var(--color__bg);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a, a:visited {
+    color: var(--color__main);
+}
+a:hover {
+    text-decoration:dotted;
+}
+
+img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
+
+.main {
+    margin: var(--100);
+}
+
+.main__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--100);
+}
+
+.main__inner--l {
+    max-width: 1920px;
+}
+.main__inner--s {
+    max-width: 600px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    gap: var(--100);
+    flex-direction: row;
+}
+.header--col {
+    flex-direction: column;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    gap: var(--100);
+    flex: 1;
+}
+
+.header__container--col {
+    flex-direction: column;
+}
+
+/* .SITE-TITLE */
+.site-title {
+    font-size: 1rem;
+}
+.site-title--center {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.site-title a {
+    text-decoration: none;
+}
+
+/* MISC */
+.profile-pic {
+    margin: auto;
+}
+.profile-pic__img {
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+.clock {
+    font-size: 0.8rem;
+}
+.date {
+    font-size: 0.8rem;
+}
+
+
+/* SECTION */
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--100);
+}
+.section__title {
+    font-size: 0.8rem;
+}
+.section__container {
+    flex-direction: column;
+    display: flex;
+    gap: var(--100);
+}
+.section__container--2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--100);
+}
+.section__container--3col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--100);
+}
+
+/* TEXT-BOX */
+.text-block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--100);
+}
+.text-block__ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--100);
+    font-size: 0.8rem;
+}
+.text-block__li {
+
+}
+.text-block__li--center {
+    text-align: center;
+}
+
+/* ITEM */
+
+.item__inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--100);
+}
+
+.item__figure {
+    order: 1;
+    
+}
+.item__img {
+    border-radius: var(--100);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.item__title {
+    font-size: 0.8rem;
+    order: 2;
+}
+
+.item__title--center {
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: var(--100);
+    font-size: 0.8rem;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    gap: var(--100);
+    width: 100%;
+}
+
+.footer__nav {
+    white-space: nowrap;
+}
+
+/* MIN/MAX-WIDTH SCREEN */
+
+@media only screen and (max-width:768px) {
+    :root {
+        --100: 8px;
+        --fs: 16px;
+    }
+    .info {
+        grid-template-columns: 1fr;
+    }
+    .section__container--3col {
+        grid-template-columns: 1fr 1fr;
+    }
+    .section__container--2col {
+        grid-template-columns: 1fr;
+    }   
+    marquee {
+        animation-duration: 15s;
+    }
+}
+@media only screen and (max-width:480px) {
+    :root {
+        --fs: 16px;
+        --100: 4px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .section__container--3col {
+        grid-template-columns: 1fr;
+    }   
+}
+
+@media only screen and (min-width:1920px) {
+    :root {
+        --fs: 24px;
+    }
+ 
+}
+
