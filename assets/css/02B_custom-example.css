@@ -1,4 +1,7 @@
 :root {
+
+    --fs: 30px;
+    --100: 20px;
     --time__now: #0318d010; /* <-- is changed by script */
     
     --time__0000: rgba(255, 0, 0, 0.1);
@@ -40,31 +43,19 @@ figure,
 ul, li,
 h1, h2, h3, h4, h5, h6, p {
     /* padding: var(--100) 0; */
-    /* background-color: var(--color__accent); */
+    background-color: var(--color__accent);
     /* border-radius: var(--100); */
-}
-
-img {
-    border-radius: var(--100);
 }
 
 .header,
 .footer,
 .section {
     padding: var(--100);
-    background-color: var(--color__accent);
-    border-radius: var(--100);
 }
 
-@media only screen and (max-width:768px) {
-    :root {
-        --100: 8px;
-        --fs: 16px;
-    }
-}
-@media only screen and (max-width:480px) {
-    :root {
-        --fs: 16px;
-        --100: 8px;
-    }  
+.info__links {
+    padding-left: var(--100);
+    list-style:circle;
+    line-height: 1.2;
+    font-size: 0.8rem;
 }

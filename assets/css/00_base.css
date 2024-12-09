@@ -232,9 +232,15 @@ iframe {
     gap: var(--100);
     font-size: 0.8rem;
 }
-.text-block__li {
 
+.text-block__ul--bull {
+    display: block;
+    padding-left: var(--200);
+    list-style:circle;
+    line-height: 1.2;
+    font-size: 0.8rem;
 }
+
 .text-block__li--center {
     text-align: center;
 }

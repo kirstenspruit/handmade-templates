@@ -1,0 +1,21 @@
+header,
+footer,
+nav,
+marquee,
+main,
+aside, 
+section,
+div,
+figure,
+ul, li,
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: var(--100);
+    /* background-color: var(--color__accent); */
+    border: 1px dashed var(--color__main);
+    border-radius: var(--100);
+}
+main {
+    background-color: var(--color__accent);
+}
+

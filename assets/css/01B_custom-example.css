@@ -1,35 +1,32 @@
 :root {
-
-    --fs: 30px;
-    --100: 20px;
     --time__now: #0318d010; /* <-- is changed by script */
     
-    --time__0000: rgba(255, 0, 0, 0.1);
-    --time__0100: rgba(255, 166, 0, 0.1);
-    --time__0200: rgba(255, 255, 0, 0.1);
-    --time__0300: rgba(0, 128, 0, 0.1);
-    --time__0400: rgba(0, 255, 255, 0.1);
-    --time__0500: rgba(0, 0, 255, 0.1);
-    --time__0600: rgba(128, 0, 128, 0.1);
-    --time__0700: rgba(255, 0, 255, 0.1);
+    --time__0000: rgba(255, 0, 0, 1);
+    --time__0100: rgba(255, 166, 0, 1);
+    --time__0200: rgba(255, 255, 0, 1);
+    --time__0300: rgba(0, 128, 0, 1);
+    --time__0400: rgba(0, 255, 255, 1);
+    --time__0500: rgba(0, 0, 255, 1);
+    --time__0600: rgba(128, 0, 128, 1);
+    --time__0700: rgba(255, 0, 255, 1);
 
-    --time__0800: rgba(255, 0, 0, 0.1);
-    --time__0900: rgba(255, 166, 0, 0.1);
-    --time__1000: rgba(255, 255, 0, 0.1);
-    --time__1100: rgba(0, 128, 0, 0.1);
-    --time__1200: rgba(0, 255, 255, 0.1);
-    --time__1300: rgba(0, 0, 255, 0.1);
-    --time__1400: rgba(128, 0, 128, 0.1);
-    --time__1500: rgba(255, 0, 255, 0.1);
+    --time__0800: rgba(255, 0, 0, 1);
+    --time__0900: rgba(255, 166, 0, 1);
+    --time__1000: rgba(255, 255, 0, 1);
+    --time__1100: rgba(0, 128, 0, 1);
+    --time__1200: rgba(0, 255, 255, 1);
+    --time__1300: rgba(0, 0, 255, 1);
+    --time__1400: rgba(128, 0, 128, 1);
+    --time__1500: rgba(255, 0, 255, 1);
 
-    --time__1600: rgba(255, 0, 0, 0.1);
-    --time__1700: rgba(255, 166, 0, 0.1);
-    --time__1800: rgba(255, 255, 0, 0.1);
-    --time__1900: rgba(0, 128, 0, 0.1);
-    --time__2000: rgba(0, 255, 255, 0.1);
-    --time__2100: rgba(0, 0, 255, 0.1);
-    --time__2200: rgba(128, 0, 128, 0.1);
-    --time__2300: rgba(255, 0, 255, 0.1);
+    --time__1600: rgba(255, 0, 0, 1);
+    --time__1700: rgba(255, 166, 0, 1);
+    --time__1800: rgba(255, 255, 0, 1);
+    --time__1900: rgba(0, 128, 0, 1);
+    --time__2000: rgba(0, 255, 255, 1);
+    --time__2100: rgba(0, 0, 255, 1);
+    --time__2200: rgba(128, 0, 128, 1);
+    --time__2300: rgba(255, 0, 255, 1);
 }
 
 header,
@@ -42,20 +39,11 @@ div,
 figure,
 ul, li,
 h1, h2, h3, h4, h5, h6, p {
-    /* padding: var(--100) 0; */
-    background-color: var(--color__accent);
+    padding: var(--100) 0;
+    /* background-color: var(--color__accent); */
     /* border-radius: var(--100); */
+    border-top: solid 1px var(--color__accent);
+    border-bottom: solid 1px var(--color__accent);
 }
 
-.header,
-.footer,
-.section {
-    padding: var(--100);
-}
 
-.info__links {
-    padding-left: var(--100);
-    list-style:circle;
-    line-height: 1.2;
-    font-size: 0.8rem;
-}
